@@ -1,7 +1,82 @@
 /* header styles */
 .page-header-wrapper {
-    height:500px;
+    height:100vh;
+}
+.page-header {
+    margin-bottom: 10vh;
 }
 .page-header-img {
     background-image: url("/assets/backgrounds/safar-safarov-MSN8TFhJ0is-unsplash.jpg");
+}
+
+/* display post styles */
+.post-wrapper {
+    padding:5vw;
+    width:80vw;
+    height:350px;
+    display: flex;
+    flex-direction: row;
+}
+.post-thumbnail {
+    width:500px;
+    height:350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right:50px;
+}
+.post-thumbnail > img {
+    width:100%;
+    height:100%;
+}
+.post-right {
+    width:50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+}
+.post-heading {
+    height:70px;
+    width:400px;
+    display: flex;
+    align-items: center;
+    border-bottom:3px solid rgb(57, 122, 24);
+}
+.post-heading > h2 {
+    font-size: 40px;
+    color:rgb(57, 122, 24);
+    font-family: 'Roboto Mono', monospace;
+}
+.post-date > p {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+}
+.post-snippet > p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+.post-readmore {
+    width:100%;
+    height:50px;
+    font-size: 20px;
+    text-decoration: none;
+    color:rgb(57, 122, 24);
+    font-weight: 500;
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:3px solid rgb(57, 122, 24);
+    background-color: white;
+    position: absolute;
+    bottom:0px;
+    box-shadow: 0px -10px 80px 50px white;
+    transition: 0.5s;
+}
+.post-readmore:hover {
+    background-color: rgb(57, 122, 24);
+    color:white;
 }
