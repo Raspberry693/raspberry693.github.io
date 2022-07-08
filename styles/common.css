@@ -8,6 +8,9 @@ body {
 .page-title {
     font-size: 8vw;
 }
+.page-heading {
+    font-size: 5vw;
+}
 
 /* header styles */
 .page-header-wrapper {
@@ -26,6 +29,7 @@ body {
     height:100%;
     filter: brightness(0.5);
     background-size: cover;
+    background-clip: border-box;
     background-position: center;
     position:absolute;
 }

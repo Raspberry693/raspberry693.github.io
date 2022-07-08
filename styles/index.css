@@ -39,14 +39,14 @@
 }
 .post-heading {
     height:70px;
-    width:400px;
+    min-width:400px;
     display: flex;
     align-items: center;
-    border-bottom:3px solid rgb(57, 122, 24);
+    border-bottom:3px solid rgb(69, 73, 78);
 }
 .post-heading > h2 {
     font-size: 40px;
-    color:rgb(57, 122, 24);
+    color:rgb(69, 73, 78);
     font-family: 'Roboto Mono', monospace;
 }
 .post-date > p {
@@ -59,17 +59,17 @@
     font-size: 18px;
 }
 .post-readmore {
-    width:100%;
+    width:calc(100% - 6px);
     height:50px;
     font-size: 20px;
     text-decoration: none;
-    color:rgb(57, 122, 24);
+    color:rgb(69, 73, 78);
     font-weight: 500;
     font-family: 'Roboto Mono', monospace;
     display: flex;
     align-items: center;
     justify-content: center;
-    border:3px solid rgb(57, 122, 24);
+    border:3px solid rgb(69, 73, 78);
     background-color: white;
     position: absolute;
     bottom:0px;
@@ -77,6 +77,6 @@
     transition: 0.5s;
 }
 .post-readmore:hover {
-    background-color: rgb(57, 122, 24);
+    background-color: rgb(69, 73, 78);
     color:white;
 }
