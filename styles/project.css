@@ -1,0 +1,11 @@
+/* header styles */
+.page-header-wrapper {
+    height:40vh;
+}
+.page-header {
+    margin-bottom: 4vh;
+}
+.page-header-img {
+    background-image: url("/assets/backgrounds/safar-safarov-MSN8TFhJ0is-unsplash.jpg");
+    height:40vh;
+}

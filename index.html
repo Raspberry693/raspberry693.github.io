@@ -6,8 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Raspberry693</title>
 
-        <link rel="stylesheet" href="styles/common.css">
-        <link rel="stylesheet" href="styles/index.css">
+        <link rel="stylesheet" href="/styles/common.css">
+        <link rel="stylesheet" href="/styles/index.css">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +15,7 @@
 
         <script src="https://kit.fontawesome.com/bcef333271.js" crossorigin="anonymous"></script>
 
-        <script src="scripts/frontpage.js" defer></script>
+        <script src="scripts/common/nav.js" defer></script>
     </head>
     <body>
         <div class="page-header-wrapper">
@@ -27,8 +27,8 @@
         <div class="nav-wrapper">
             <div class="nav">
                 <a class="nav-link active" id="nav-home" href="index.html"><i class="fa-solid fa-house"></i>Home</a>
-                <a class="nav-link" id="nav-projects" href="#"><i class="fa-solid fa-cube"></i>Projects</a>
-                <a class="nav-link" id="nav-projects" href="#"><i class="fa-solid fa-dice"></i>Games</a>
+                <button class="nav-link" id="nav-projects" onclick="toggle()"><i class="fa-solid fa-cube"></i>Projects<i class="fa-solid fa-caret-down"></i></button>
+                <a class="nav-link" id="nav-games" href="#"><i class="fa-solid fa-dice"></i>Games</a>
             </div>
         </div>
         <div id="front-page-wrapper">
@@ -48,7 +48,7 @@
                             <p id="post-snippet-1">Last week (or there abouts) I started a fairly simple project, my Custom Pico Gamepad. What takes some hours to create, took me several days to simply troubleshoot. I've never before soldered anything, nor actually put anything together in a manner that looked even halfway decent. Using a Raspberry Pi Pico Microcontroller (and a lot of youtube tutorials), I hope I can figure this one out. Should be fun :)</p>
                         </div>
                     </div>
-                    <a href="projects/gamepad.html" class="post-readmore" id="readmore-1">
+                    <a href="pages/projects/gamepad.html" class="post-readmore" id="readmore-1">
                         <p>READ MORE</p>
                     </a>
                 </div>
